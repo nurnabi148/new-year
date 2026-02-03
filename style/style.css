@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#banner-section{
+  border-radius: 16px;
+background: linear-gradient(180.00deg, rgba(7, 2, 17, 1) 0%,rgba(7, 2, 17, 0) 100%),url("../images/hero.png");
+  /* Rectangle 15 */
+width: 1320px;
+height: 600px;
+margin: 0 auto;
+background-size: cover;
+background-position: center;
+margin-top: 50px;
+margin-bottom: 120px;
+}
+
+#banner-section .hero-content{
+  color: rgba(255, 255, 255, 1);
+/* New Year Party Celebration */
+width: 632px;
+/* height: 190px; */
+font-family: Merriweather;
+font-style: Black;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+letter-spacing: 0%;
+/* text-align: center; */
+/* align-items: center; */
+/* justify-content: center; */
+}
+.hero-content{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  padding: 195px 344px 200px 344px;
+
+}
+.hero-content .title{
+  /* Happy New Year */
+/* width: 259px; */
+/* height: 40px; */
+color: rgba(255, 255, 255, 1);
+
+font-family: Merriweather;
+font-style: Regular;
+font-size: 32px;
+font-weight: 300;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+/* gap: 16px; */
+}
+.hero-content .subtitle {
+  /* New Year Party Celebration */
+/* width: 632px; */
+/* height: 190px; */
+color: rgba(255, 255, 255, 1);
+
+font-family: Merriweather;
+font-style: Black;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 16px;
+}
+
+#discount-section{
+  margin: 0 auto;
+  /* Landing Page Design */
+width: 900px;
+height: 800px;
+background: rgba(255, 255, 255, 1);
+margin-bottom: 120px;
+
+
+}
+
+#discount-section .discount-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#discount-section .discount-image{
+  /* Vector */
+width: 802.9px;
+height: 500px;
+  margin-top: 50px;
+  background-position: center;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+
+}
+.discount-offer{
+
+  /* 65% OFF */
+/* width: 383px; */
+height: 107px;
+color: rgba(255, 0, 0, 1);
+
+font-family: Inter;
+font-style: Bold;
+font-size: 88px;
+font-weight: 700;
+line-height: 106px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 48px;
+}
+.discount-description{
+  /* OUR HOLIDAY DEALS ARE BETTER */
+/* width: 397px; */
+height: 29px;
+color: rgba(255, 0, 0, 1);
+
+font-family: Inter;
+font-style: Medium;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 16px;
+}
+
+.category{
+  /* ALL CATEGORIES */
+/* width: 410px; */
+height: 58px;
+color: rgba(7, 2, 17, 1);
+
+font-family: Inter;
+font-style: Bold;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: center;
+}
+#party-container{
+
+  border-radius: 16px;
+background: linear-gradient(90.00deg, rgba(7, 2, 17, 1),rgba(7, 2, 17, 0) 100%),url("../images/Vectorrr.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* Vector */
+width: 1320px;
+height: 600px;
+margin: 0 auto;
+margin-bottom: 120px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 120px;
+
+
+}
+.party-text{
+/* Welcome to midnight party */
+width: 642px;
+height: 176px;
+color: rgba(255, 255, 255, 1);
+
+font-family: Merriweather;
+font-style: Black;
+font-size: 64px;
+font-weight: 800;
+line-height: 88px;
+letter-spacing: 11%;
+text-align: left;
+}
+.party-description{
+  
+width: 697px;
+height: 60px;
+color: rgba(255, 255, 255, 0.8);
+
+font-family: Inter;
+font-style: Regular;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 24px;
+}
+.party-join{
+  /* Join Now */
+width: 103px;
+height: 24px;
+color: rgba(255, 255, 255, 1);
+
+font-family: Inter;
+font-style: Bold;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+margin-top: 48px;
+margin-left: 50px;
+}
+.party-image{
+  /* Frame */
+width: 319.83px;
+height: 464.66px;
+}
+
+.event{
+  margin-bottom: 120px;
+}
+#event-container{
+  
+width: 1320px;
+height: 482px;
+margin: 0 auto;
+display: flex;
+
+flex-direction: column;
+align-items: center; 
+justify-content: center;
+
+border-radius: 16px;
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1) 0%,rgba(255, 0, 0, 0) 100%);
+
+
+}
+#event-container .event-text{
+  
+width: 549px;
+height: 168px;
+
+font-family: Inter;
+font-style: Semi Bold;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+
+;
+
+
+} 
+ .event-button{
+  
+margin-top: 48px;
+}
+.btn{
+
+width: 167px;
+height: 56px;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 16px 32px 16px 32px;
+border-radius: 8px;
+background: rgba(255, 0, 0, 1);
+border: none;
+
+}
+
+.text-color{
+  color: rgba(255, 0, 0, 1);
+  
+}
+.color-text{
+  color: rgba(7, 2, 17, 1);
+}
+.btn-color{
+   color: rgba(255, 255, 255, 1);
+
+font-family: Inter;
+font-style: Bold;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+}
+
+
+
