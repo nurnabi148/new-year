@@ -268,6 +268,8 @@ text-transform: capitalize;
  .event-button{
   
 margin-top: 48px;
+
+
 }
 .btn{
 
@@ -304,6 +306,8 @@ line-height: 24px;
 letter-spacing: 0%;
 text-align: center;
 text-transform: uppercase;
+
+
 }
 
 /* new best offer */
@@ -528,10 +532,8 @@ width: 100%;
 
 #gift-item{
   margin: 0 auto;
-  /* justify-content: center; */
   width: 1320px;
-height: 600px;
-  /* height: 400px; */
+  /* height: 600px; */
 }
 .gift-img{
   /* Rectangle 3 */
@@ -589,14 +591,255 @@ font-weight: 400;
 line-height: 32px;
 letter-spacing: 0%;
 text-align: left;
-margin-bottom: 18px;
+margin-bottom: 48px;
 }
+
 .gift-container{
   display: flex;
   /* flex-direction: column; */
   flex-wrap: wrap;
   gap: 24px;
+
+  /* margin-bottom: 120px; */
 }
 
 
+/* subscribe-newsletter */
+#subscribe-newsletter{
+   width: 1320px;
+   height: 400px;
+    padding: 80px 0;  
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.newsletter{
+margin: 0 auto;
+justify-content: center;
+align-items: center;
+}
+.text-img{
+  /* email 1 */
+width: 150px;
+height: 150px;
+}
+.subscribe-title{
+  color: rgba(7, 2, 17, 1);
 
+font-family: Merriweather;
+font-style: Black;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+margin-top: 30px;
+}
+.Subscribe-description{
+  color: rgba(7, 2, 17, 0.6);
+
+font-family: Inter;
+font-style: Regular;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+width: 814px;
+height: 64px;
+margin-top: 20px;
+}
+.gmail-submit{
+  display: flex;
+  height: 70px;
+  border-radius: 50px; 
+  overflow: hidden;   
+  margin: 0 auto;
+   max-width: 600px;
+background: rgba(255, 255, 255, 1);
+margin-top: 24px;
+}
+.placeholder{
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  /* user@gmail.com */
+/* width: 141px; */
+/* height: 22px; */
+
+}
+
+.email-submit::placeholder{
+  color: rgba(7, 2, 17, 0.3);
+}
+
+.Subscribe{
+  background-color:rgba(255, 0, 0, 1); 
+  color: white;
+  border: none;
+  padding: 0 40px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+.Subscribe:hover{
+  opacity: 0.9;
+}
+
+#footer{
+width:100%;
+height: 609px;
+background: rgba(7, 2, 17, 1);
+/* background: aqua; */
+}
+.footer-container{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  width: 1320px;
+}
+.footer-title{
+width: 375px;
+height: 80px;
+color: rgba(255, 255, 255, 1);
+
+font-family: Inter;
+font-style: Medium;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 120px;
+}
+.footer-des{
+  margin-top: 120px;
+}
+
+.footer-contact{
+  /* +00 123 584 124 */
+width: 195px;
+height: 40px;
+color: rgba(255, 255, 255, 1);
+
+font-family: Inter;
+font-style: Medium;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer-web{
+  /* www.website.com */
+width: 211px;
+height: 40px;
+color: rgba(255, 255, 255, 1);
+
+font-family: Inter;
+font-style: Medium;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icons-tele{
+  width: 24px;
+  height: 25px;
+  background:none;
+}
+.horizontal{
+  /* Line 1 */
+width: 1320px;
+height: 0;
+border: 1px solid rgba(255, 255, 255, 0.15);
+background-color: 1px	Middle
+rgba(255, 255, 255, 0.15);
+margin-top: 48px;
+}
+.app-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+.app-container a{
+  text-decoration: none;
+  display: flex;
+}
+.app-container img:hover{
+  transform: scale(1.2);
+    opacity: 1;
+
+}
+
+.app img{
+  width: 64px;
+  height: 64px;
+  cursor:pointer;
+   transition: transform 0.3s ease;
+
+}
+
+.last-footer{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 52px;
+}
+.reserved{
+  /* 2017, All Rights Reserved. */
+width: 295px;
+height: 29px;
+color: rgba(255, 255, 255, 1);
+
+font-family: Inter;
+font-style: Medium;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.unsubscribe{
+  /* Unsubscribe */
+width: 145px;
+height: 29px;
+color: rgba(255, 255, 255, 1);
+
+font-family: Inter;
+font-style: Medium;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
